@@ -6,9 +6,9 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Funções basicas em python'
-copyright = '2025, Diessica'
-author = 'Diessica'
+project = 'Funções básica Python'
+copyright = '2025, Diéssica'
+author = 'Diéssica'
 release = '1.0'
 
 # -- General configuration ---------------------------------------------------
@@ -26,3 +26,9 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 html_theme = 'alabaster'
 html_static_path = ['_static']
+extensions = ['myst_parser']
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.md': 'markdown'
+}
+

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Instruções de Uso &#8212; Funções básica Python 1.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <script src="_static/documentation_options.js?v=f2a433a1"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <p>Nome do Projeto: Funções Básicas em Python</p>
+<p>Descrição:
+Este projeto tem como objetivo exercitar a criação e utilização de funções em Python. Foram desenvolvidas três funções principais que realizam operações simples com entrada de dados:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">calcular_idade(idade)</span></code>: Verifica se a pessoa é maior de idade com base na idade informada.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">avaliar_paridade(numero)</span></code>: Avalia se um número é par, retornando <code class="docutils literal notranslate"><span class="pre">True</span></code> ou <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">dobrar(valor)</span></code>: Retorna o dobro do valor informado.</p></li>
+</ul>
+<p>O projeto foi estruturado de forma modular, facilitando a reutilização do código em outros contextos. Ideal para quem está iniciando em programação com Python e deseja compreender o uso de funções, retorno de valores e boas práticas como o uso de docstrings.</p>
+<p>Instruções de Instalação:</p>
+<p>Para executar este projeto em sua máquina local, siga os passos abaixo:</p>
+<ol class="arabic simple">
+<li><p>Clone o repositório (se estiver hospedado no GitHub):
+git clone https://github.com/Diessica018/modulo.git</p></li>
+<li><p>Crie um ambiente virtual:
+python -m venv .venv
+source.venv/bin/activate #Linux/Mac</p></li>
+<li><p>Instale as dependências:
+pip install -r requirements.txt</p></li>
+</ol>
+<section id="instrucoes-de-uso">
+<h1>Instruções de Uso<a class="headerlink" href="#instrucoes-de-uso" title="Link to this heading">¶</a></h1>
+<p>Após seguir os passos de instalação, você pode executar o arquivo <code class="docutils literal notranslate"><span class="pre">main.py</span></code> para testar as funções implementadas.</p>
+<p>Abaixo estão exemplos de como utilizar cada função:</p>
+<ol class="arabic simple">
+<li><p>Verificar maioridade</p></li>
+</ol>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">utils.utils</span><span class="w"> </span><span class="kn">import</span> <span class="n">calcular_idade</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">calcular_idade</span><span class="p">(</span><span class="mi">20</span><span class="p">))</span>  <span class="c1"># Saída: É maior de idade</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">calcular_idade</span><span class="p">(</span><span class="mi">15</span><span class="p">))</span>  <span class="c1"># Saída: É menor de idade</span>
+
+<span class="n">CONTATO</span> <span class="n">COMO</span> <span class="n">CONTRIBUIR</span><span class="p">:</span>
+<span class="n">E</span><span class="o">-</span><span class="n">mail</span><span class="p">:</span> <span class="n">diessicanaiara072</span><span class="nd">@gmail</span><span class="o">.</span><span class="n">com</span>
+<span class="n">Git</span><span class="o">-</span><span class="n">Hub</span><span class="p">:</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">Diessica018</span>
+
+</pre></div>
+</div>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Funções básica Python</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2025, Diéssica.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.2.3</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/README.md.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

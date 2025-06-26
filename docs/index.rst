@@ -1,10 +1,10 @@
-.. Funções basicas em python documentation master file, created by
-   sphinx-quickstart on Wed Jun 25 20:51:00 2025.
+.. Funções básica Python documentation master file, created by
+   sphinx-quickstart on Thu Jun 26 10:30:32 2025.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Funções basicas em python documentation
-=======================================
+Funções básica Python documentation
+===================================
 
 Add your content using ``reStructuredText`` syntax. See the
 `reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
@@ -14,4 +14,4 @@ documentation for details.
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-
+   README.md
